@@ -30,6 +30,8 @@ class ViewController: UIViewController {
         myButton.setTitle("Se connecter", for: .normal)
         myButton.setTitleColor(.lightGray, for: .normal)
         
+        
+        
         myView.backgroundColor = .lightGray
         emailTextField.borderStyle = .line
         emailTextField.placeholder = " ton email"
