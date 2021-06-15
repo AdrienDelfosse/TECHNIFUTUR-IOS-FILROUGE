@@ -11,7 +11,7 @@ class EatViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "Manger"
         // Do any additional setup after loading the view.
     }
     

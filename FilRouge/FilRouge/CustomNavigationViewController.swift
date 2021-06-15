@@ -11,7 +11,8 @@ class CustomNavigationViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        navigationBar.tintColor = .blue
+        navigationBar.barTintColor = .blue
         // Do any additional setup after loading the view.
     }
     

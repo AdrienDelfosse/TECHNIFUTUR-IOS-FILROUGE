@@ -18,8 +18,10 @@ class ViewController: UIViewController {
     @IBOutlet var myButton: UIButton!
     
     @IBAction func didPressOnButton(_ sender: Any) {
-    
-    }
+        if let homeViewController = storyboard?.instantiateViewController(identifier: "CustomTabBarViewController"){
+            homeViewController.modalPresentationStyle = .fullScreen
+            present(homeViewController, animated: true, completion: nil)
+        }  }
     
     
     

@@ -11,7 +11,7 @@ class SmileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "Rigoler"
         // Do any additional setup after loading the view.
     }
     
