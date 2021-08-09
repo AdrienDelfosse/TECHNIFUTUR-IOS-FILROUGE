@@ -1,9 +1,4 @@
-//
-//  CustomNavigationViewController.swift
-//  FilRouge
-//
-//  Created by Student05 on 15/06/2021.
-//
+
 
 import UIKit
 

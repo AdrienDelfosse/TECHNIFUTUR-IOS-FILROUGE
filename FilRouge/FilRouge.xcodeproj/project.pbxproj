@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F51D479D26B968BB0073B193 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D479C26B968BB0073B193 /* UIColor.swift */; };
+		F51D47A726B96BCD0073B193 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D47A626B96BCD0073B193 /* Regex.swift */; };
+		F51D47AE26B970EF0073B193 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D47AD26B970EF0073B193 /* CustomTextField.swift */; };
 		F5233B2326788E09001A94A7 /* MoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5233B2226788E09001A94A7 /* MoveViewController.swift */; };
 		F5233B2626788E1A001A94A7 /* EatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5233B2526788E1A001A94A7 /* EatViewController.swift */; };
 		F5233B2926788E30001A94A7 /* SmileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5233B2826788E30001A94A7 /* SmileViewController.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F51D479C26B968BB0073B193 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		F51D47A626B96BCD0073B193 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = ../../../../Downloads/FR004/Regex.swift; sourceTree = "<group>"; };
+		F51D47AD26B970EF0073B193 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		F5233B2226788E09001A94A7 /* MoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveViewController.swift; sourceTree = "<group>"; };
 		F5233B2526788E1A001A94A7 /* EatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatViewController.swift; sourceTree = "<group>"; };
 		F5233B2826788E30001A94A7 /* SmileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +87,9 @@
 				F5233B2B26788E55001A94A7 /* HomeViewController.swift */,
 				F5233B3626789699001A94A7 /* CustomTabBarViewController.swift */,
 				F5233B39267896BE001A94A7 /* CustomNavigationViewController.swift */,
+				F51D479C26B968BB0073B193 /* UIColor.swift */,
+				F51D47A626B96BCD0073B193 /* Regex.swift */,
+				F51D47AD26B970EF0073B193 /* CustomTextField.swift */,
 			);
 			path = FilRouge;
 			sourceTree = "<group>";
@@ -155,15 +164,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51D47AE26B970EF0073B193 /* CustomTextField.swift in Sources */,
 				F5ECEF7A2664E3500042DEAD /* ViewController.swift in Sources */,
 				F5233B2626788E1A001A94A7 /* EatViewController.swift in Sources */,
 				F5233B3726789699001A94A7 /* CustomTabBarViewController.swift in Sources */,
 				F5233B2326788E09001A94A7 /* MoveViewController.swift in Sources */,
 				F5ECEF762664E3500042DEAD /* AppDelegate.swift in Sources */,
+				F51D47A726B96BCD0073B193 /* Regex.swift in Sources */,
 				F5ECEF782664E3500042DEAD /* SceneDelegate.swift in Sources */,
 				F5233B2C26788E55001A94A7 /* HomeViewController.swift in Sources */,
 				F5233B3A267896BE001A94A7 /* CustomNavigationViewController.swift in Sources */,
 				F5233B2926788E30001A94A7 /* SmileViewController.swift in Sources */,
+				F51D479D26B968BB0073B193 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
