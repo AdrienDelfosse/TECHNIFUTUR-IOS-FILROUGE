@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F22438D626C3AB0100DA8460 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22438D426C3AB0100DA8460 /* CustomCollectionViewCell.swift */; };
+		F22438D726C3AB0100DA8460 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F22438D526C3AB0100DA8460 /* CustomCollectionViewCell.xib */; };
 		F51D479D26B968BB0073B193 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D479C26B968BB0073B193 /* UIColor.swift */; };
 		F51D47A726B96BCD0073B193 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D47A626B96BCD0073B193 /* Regex.swift */; };
 		F51D47AE26B970EF0073B193 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D47AD26B970EF0073B193 /* CustomTextField.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F22438D426C3AB0100DA8460 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		F22438D526C3AB0100DA8460 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
 		F51D479C26B968BB0073B193 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		F51D47A626B96BCD0073B193 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = ../../../../Downloads/FR004/Regex.swift; sourceTree = "<group>"; };
 		F51D47AD26B970EF0073B193 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 				F51D479C26B968BB0073B193 /* UIColor.swift */,
 				F51D47A626B96BCD0073B193 /* Regex.swift */,
 				F51D47AD26B970EF0073B193 /* CustomTextField.swift */,
+				F22438D426C3AB0100DA8460 /* CustomCollectionViewCell.swift */,
+				F22438D526C3AB0100DA8460 /* CustomCollectionViewCell.xib */,
 			);
 			path = FilRouge;
 			sourceTree = "<group>";
@@ -120,6 +126,9 @@
 		F5ECEF6A2664E3500042DEAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
@@ -154,6 +163,7 @@
 				F5ECEF822664E3530042DEAD /* LaunchScreen.storyboard in Resources */,
 				F5ECEF7F2664E3530042DEAD /* Assets.xcassets in Resources */,
 				F5ECEF7D2664E3500042DEAD /* Main.storyboard in Resources */,
+				F22438D726C3AB0100DA8460 /* CustomCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +177,7 @@
 				F51D47AE26B970EF0073B193 /* CustomTextField.swift in Sources */,
 				F5ECEF7A2664E3500042DEAD /* ViewController.swift in Sources */,
 				F5233B2626788E1A001A94A7 /* EatViewController.swift in Sources */,
+				F22438D626C3AB0100DA8460 /* CustomCollectionViewCell.swift in Sources */,
 				F5233B3726789699001A94A7 /* CustomTabBarViewController.swift in Sources */,
 				F5233B2326788E09001A94A7 /* MoveViewController.swift in Sources */,
 				F5ECEF762664E3500042DEAD /* AppDelegate.swift in Sources */,
