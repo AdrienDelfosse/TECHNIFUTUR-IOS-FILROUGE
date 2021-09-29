@@ -12,12 +12,13 @@ class CustomTabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tabBar.barTintColor = .blue
+        tabBar.barTintColor = .darkblue
         tabBar.items![0].image = UIImage(named: "ico_house_white")
         tabBar.items![1].image = UIImage(named: "ico_pizza_white")
         tabBar.items![2].image = UIImage(named: "ico_laugh_white")
         tabBar.items![3].image = UIImage(named: "ico_car_white")
-        
+        tabBar.tintColor = .coral
+        tabBar.unselectedItemTintColor = .white
     }
     
 

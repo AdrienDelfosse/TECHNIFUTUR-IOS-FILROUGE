@@ -40,7 +40,9 @@ class ViewController: UIViewController {
         if let homeViewController = storyboard?.instantiateViewController(identifier: "CustomTabBarViewController"){
             homeViewController.modalPresentationStyle = .fullScreen
             present(homeViewController, animated: true, completion: nil)
-        }  }
+        }
+        
+    }
     
     
     
@@ -69,6 +71,8 @@ class ViewController: UIViewController {
             object: nil
         )
     }
+    
+    
     
     func setupLabel(){
         helloLabel.text = "Hey ! Komen ksé ?!"
@@ -249,22 +253,8 @@ extension ViewController {
             }
         }
         
-       /* func checkValidity(textfield: UITextField) {
-            if textfield.text?.isEmpty ?? false {
-                textfield.textColor = .middleBlue
-                
-            } else {
-                if textfield.isValid() {
-                    textfield.textColor = .aquamarine
-                    textfield.setRightIcon(image: UIImage(named: "icoCheckGreen"))
-                } else {
-                    textfield.setRightIcon(image: UIImage(named: "icoCrossRed"))
-                    textfield.textColor = .coral
-                    
-                    self.feedbackLabel.text = "Pas facile de taper avec des gros doigts"
-                }
-            }
-        }
- */
+      
 }
+
+
 
