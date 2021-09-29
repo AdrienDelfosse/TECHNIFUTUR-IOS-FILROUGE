@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="225" id="KGk-i7-Jjw" customClass="JokeTableViewCell" customModule="FilRouge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="502" height="225"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="502" height="225"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nwg-JJ-f0h">
+                        <rect key="frame" x="30" y="16" width="442" height="193"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Xl-mK-uEe">
+                                <rect key="frame" x="10" y="10" width="422" height="173"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9Xl-mK-uEe" firstAttribute="leading" secondItem="nwg-JJ-f0h" secondAttribute="leading" constant="10" id="Ape-j9-vbl"/>
+                            <constraint firstAttribute="trailing" secondItem="9Xl-mK-uEe" secondAttribute="trailing" constant="10" id="Q1w-CV-Jiq"/>
+                            <constraint firstAttribute="bottom" secondItem="9Xl-mK-uEe" secondAttribute="bottom" constant="10" id="QKL-S8-CG2"/>
+                            <constraint firstItem="9Xl-mK-uEe" firstAttribute="top" secondItem="nwg-JJ-f0h" secondAttribute="top" constant="10" id="flp-4K-3QD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="nwg-JJ-f0h" secondAttribute="bottom" constant="5" id="Apz-Wz-l4d"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="nwg-JJ-f0h" secondAttribute="trailing" constant="10" id="KgY-j6-kgg"/>
+                    <constraint firstItem="nwg-JJ-f0h" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="Z7B-pU-uXU"/>
+                    <constraint firstItem="nwg-JJ-f0h" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="kjN-aM-8qa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="JokeLabel" destination="9Xl-mK-uEe" id="R6U-xR-tys"/>
+                <outlet property="containerView" destination="nwg-JJ-f0h" id="oUm-4i-EIF"/>
+            </connections>
+            <point key="canvasLocation" x="384.05797101449281" y="169.75446428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

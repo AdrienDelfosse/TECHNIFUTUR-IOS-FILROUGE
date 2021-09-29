@@ -3,12 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F22438D626C3AB0100DA8460 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22438D426C3AB0100DA8460 /* CustomCollectionViewCell.swift */; };
 		F22438D726C3AB0100DA8460 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F22438D526C3AB0100DA8460 /* CustomCollectionViewCell.xib */; };
+		F2600D7A26DF5C010059496D /* EatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2600D7826DF5C010059496D /* EatTableViewCell.swift */; };
+		F2600D7B26DF5C010059496D /* EatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2600D7926DF5C010059496D /* EatTableViewCell.xib */; };
+		F2600D7F26DF721B0059496D /* EatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2600D7E26DF721B0059496D /* EatData.swift */; };
+		F2600D8126DF72660059496D /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2600D8026DF72660059496D /* Business.swift */; };
+		F2600D8526DF753E0059496D /* Categorie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2600D8426DF753E0059496D /* Categorie.swift */; };
+		F2600D8826DF76C30059496D /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = F2600D8726DF76C30059496D /* AlamofireImage */; };
+		F2600D8A26DF7A020059496D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2600D8926DF7A020059496D /* Location.swift */; };
+		F272EB1C26DE72D400C85C55 /* JokeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272EB1A26DE72D400C85C55 /* JokeTableViewCell.swift */; };
+		F272EB1D26DE72D400C85C55 /* JokeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F272EB1B26DE72D400C85C55 /* JokeTableViewCell.xib */; };
+		F272EB1F26DE743D00C85C55 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272EB1E26DE743D00C85C55 /* Joke.swift */; };
+		F272EB2126DE749700C85C55 /* JokeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272EB2026DE749700C85C55 /* JokeData.swift */; };
+		F272EB2426DE766B00C85C55 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F272EB2326DE766B00C85C55 /* Alamofire */; };
 		F51D479D26B968BB0073B193 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D479C26B968BB0073B193 /* UIColor.swift */; };
 		F51D47A726B96BCD0073B193 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D47A626B96BCD0073B193 /* Regex.swift */; };
 		F51D47AE26B970EF0073B193 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D47AD26B970EF0073B193 /* CustomTextField.swift */; };
@@ -29,6 +41,16 @@
 /* Begin PBXFileReference section */
 		F22438D426C3AB0100DA8460 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		F22438D526C3AB0100DA8460 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		F2600D7826DF5C010059496D /* EatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatTableViewCell.swift; sourceTree = "<group>"; };
+		F2600D7926DF5C010059496D /* EatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EatTableViewCell.xib; sourceTree = "<group>"; };
+		F2600D7E26DF721B0059496D /* EatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatData.swift; sourceTree = "<group>"; };
+		F2600D8026DF72660059496D /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		F2600D8426DF753E0059496D /* Categorie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categorie.swift; sourceTree = "<group>"; };
+		F2600D8926DF7A020059496D /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F272EB1A26DE72D400C85C55 /* JokeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeTableViewCell.swift; sourceTree = "<group>"; };
+		F272EB1B26DE72D400C85C55 /* JokeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JokeTableViewCell.xib; sourceTree = "<group>"; };
+		F272EB1E26DE743D00C85C55 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		F272EB2026DE749700C85C55 /* JokeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeData.swift; sourceTree = "<group>"; };
 		F51D479C26B968BB0073B193 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		F51D47A626B96BCD0073B193 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = ../../../../Downloads/FR004/Regex.swift; sourceTree = "<group>"; };
 		F51D47AD26B970EF0073B193 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -53,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F272EB2426DE766B00C85C55 /* Alamofire in Frameworks */,
+				F2600D8826DF76C30059496D /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +120,16 @@
 				F51D47AD26B970EF0073B193 /* CustomTextField.swift */,
 				F22438D426C3AB0100DA8460 /* CustomCollectionViewCell.swift */,
 				F22438D526C3AB0100DA8460 /* CustomCollectionViewCell.xib */,
+				F272EB1A26DE72D400C85C55 /* JokeTableViewCell.swift */,
+				F272EB1B26DE72D400C85C55 /* JokeTableViewCell.xib */,
+				F272EB1E26DE743D00C85C55 /* Joke.swift */,
+				F272EB2026DE749700C85C55 /* JokeData.swift */,
+				F2600D7826DF5C010059496D /* EatTableViewCell.swift */,
+				F2600D7926DF5C010059496D /* EatTableViewCell.xib */,
+				F2600D7E26DF721B0059496D /* EatData.swift */,
+				F2600D8026DF72660059496D /* Business.swift */,
+				F2600D8426DF753E0059496D /* Categorie.swift */,
+				F2600D8926DF7A020059496D /* Location.swift */,
 			);
 			path = FilRouge;
 			sourceTree = "<group>";
@@ -116,6 +150,10 @@
 			dependencies = (
 			);
 			name = FilRouge;
+			packageProductDependencies = (
+				F272EB2326DE766B00C85C55 /* Alamofire */,
+				F2600D8726DF76C30059496D /* AlamofireImage */,
+			);
 			productName = FilRouge;
 			productReference = F5ECEF722664E3500042DEAD /* FilRouge.app */;
 			productType = "com.apple.product-type.application";
@@ -146,6 +184,10 @@
 				Base,
 			);
 			mainGroup = F5ECEF692664E3500042DEAD;
+			packageReferences = (
+				F272EB2226DE766B00C85C55 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F2600D8626DF76C30059496D /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = F5ECEF732664E3500042DEAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -162,6 +204,8 @@
 			files = (
 				F5ECEF822664E3530042DEAD /* LaunchScreen.storyboard in Resources */,
 				F5ECEF7F2664E3530042DEAD /* Assets.xcassets in Resources */,
+				F2600D7B26DF5C010059496D /* EatTableViewCell.xib in Resources */,
+				F272EB1D26DE72D400C85C55 /* JokeTableViewCell.xib in Resources */,
 				F5ECEF7D2664E3500042DEAD /* Main.storyboard in Resources */,
 				F22438D726C3AB0100DA8460 /* CustomCollectionViewCell.xib in Resources */,
 			);
@@ -174,16 +218,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2600D7A26DF5C010059496D /* EatTableViewCell.swift in Sources */,
+				F2600D8526DF753E0059496D /* Categorie.swift in Sources */,
 				F51D47AE26B970EF0073B193 /* CustomTextField.swift in Sources */,
 				F5ECEF7A2664E3500042DEAD /* ViewController.swift in Sources */,
 				F5233B2626788E1A001A94A7 /* EatViewController.swift in Sources */,
 				F22438D626C3AB0100DA8460 /* CustomCollectionViewCell.swift in Sources */,
+				F2600D8126DF72660059496D /* Business.swift in Sources */,
 				F5233B3726789699001A94A7 /* CustomTabBarViewController.swift in Sources */,
 				F5233B2326788E09001A94A7 /* MoveViewController.swift in Sources */,
+				F272EB1C26DE72D400C85C55 /* JokeTableViewCell.swift in Sources */,
+				F2600D7F26DF721B0059496D /* EatData.swift in Sources */,
 				F5ECEF762664E3500042DEAD /* AppDelegate.swift in Sources */,
 				F51D47A726B96BCD0073B193 /* Regex.swift in Sources */,
+				F2600D8A26DF7A020059496D /* Location.swift in Sources */,
 				F5ECEF782664E3500042DEAD /* SceneDelegate.swift in Sources */,
 				F5233B2C26788E55001A94A7 /* HomeViewController.swift in Sources */,
+				F272EB1F26DE743D00C85C55 /* Joke.swift in Sources */,
+				F272EB2126DE749700C85C55 /* JokeData.swift in Sources */,
 				F5233B3A267896BE001A94A7 /* CustomNavigationViewController.swift in Sources */,
 				F5233B2926788E30001A94A7 /* SmileViewController.swift in Sources */,
 				F51D479D26B968BB0073B193 /* UIColor.swift in Sources */,
@@ -386,6 +438,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2600D8626DF76C30059496D /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+		F272EB2226DE766B00C85C55 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2600D8726DF76C30059496D /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2600D8626DF76C30059496D /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		F272EB2326DE766B00C85C55 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F272EB2226DE766B00C85C55 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5ECEF6A2664E3500042DEAD /* Project object */;
 }
