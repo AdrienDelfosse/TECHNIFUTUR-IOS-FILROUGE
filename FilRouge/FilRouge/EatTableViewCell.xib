@@ -36,7 +36,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eros Pizza" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e94-4F-05u">
-                                <rect key="frame" x="125" y="26" width="200" height="60"/>
+                                <rect key="frame" x="125" y="21" width="200" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="OJE-P3-H4j"/>
                                     <constraint firstAttribute="width" constant="200" id="UBT-pd-dZ0"/>
@@ -87,7 +87,7 @@
                             <constraint firstItem="0kL-Xp-h21" firstAttribute="leading" secondItem="8mD-Iy-Qmx" secondAttribute="trailing" constant="15" id="hfl-16-NB4"/>
                             <constraint firstItem="8mD-Iy-Qmx" firstAttribute="top" secondItem="6Ez-0Y-8Pm" secondAttribute="top" id="jey-fg-cGw"/>
                             <constraint firstAttribute="bottom" secondItem="0kL-Xp-h21" secondAttribute="bottom" constant="13" id="ndV-a2-Cxy"/>
-                            <constraint firstItem="e94-4F-05u" firstAttribute="top" secondItem="F8j-Cy-x69" secondAttribute="bottom" id="qrD-Xe-ecT"/>
+                            <constraint firstItem="e94-4F-05u" firstAttribute="top" secondItem="F8j-Cy-x69" secondAttribute="bottom" constant="-5" id="qrD-Xe-ecT"/>
                             <constraint firstItem="8mD-Iy-Qmx" firstAttribute="leading" secondItem="6Ez-0Y-8Pm" secondAttribute="leading" id="sUt-fJ-oPe"/>
                             <constraint firstItem="F8j-Cy-x69" firstAttribute="leading" secondItem="8mD-Iy-Qmx" secondAttribute="trailing" constant="15" id="zoa-bk-r9v"/>
                         </constraints>

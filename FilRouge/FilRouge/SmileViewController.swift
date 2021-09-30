@@ -10,19 +10,29 @@ import Alamofire
 
 class SmileViewController: UIViewController {
 
+
     @IBOutlet weak var jokeTableView: UITableView!
     
     var jokes =  [Joke]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Rigoler"
+        setupView()
+        
         setupDatas()
-        setupTableView()
+        
     }
     
-    
+    func setupView(){
+        self.title = "Rigoler"
+
+        view.backgroundColor = .blueGrey
+        jokeTableView.backgroundColor = .blueGrey
+        setupTableView()
+    }
     func setupTableView() {
+        jokeTableView.tableFooterView = UIView()
+        jokeTableView.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 0, right: 0) //
 
         jokeTableView.dataSource = self
         jokeTableView.delegate = self
@@ -36,6 +46,7 @@ class SmileViewController: UIViewController {
             let result = try! decoder.decode(JokeData.self, from: JSONData!)
             self.jokes.append(contentsOf: result.value)
             self.jokeTableView.reloadData()
+            
         }
     }
     
@@ -45,7 +56,7 @@ class SmileViewController: UIViewController {
 extension SmileViewController : UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let jokeCell = tableView.dequeueReusableCell(withIdentifier: "JokeTableViewCell", for: indexPath) as! JokeTableViewCell
-        jokeCell.setupTableView(joke: jokes[indexPath.row])
+        jokeCell.setupTableView(joke: jokes[indexPath.row], index : indexPath.row)
         return jokeCell
     }
     

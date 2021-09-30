@@ -17,24 +17,14 @@ class CustomCollectionViewCell: UICollectionViewCell {
         // Initialization code
         
         self.layer.cornerRadius = 30
-        
+        cardLabel.textColor = .middleBlue
     }
     
-    func setupCell(index : Int){
-        switch index {
-        case  0 :
-            cardImageView.image = UIImage(named: "bgClown")
-            cardLabel.text = "Je m'ennuie Distrais-moi !"
-        case  1 :
-            cardImageView.image = UIImage(named: "bgWolf")
-            cardLabel.text = "J'ai une faim de loup"
-        case  2 :
-            cardImageView.image = UIImage(named: "bgTree")
-            cardLabel.text = "De l'air ! Vite ! Il faut que je bouge !"
-            
-        default :
-            print("error")
-        }
+    func setupCell(with homeItem: HomeItems){
+        cardImageView.image = homeItem.image
+        cardLabel.text = homeItem.label
+        
+        
     }
 
 }

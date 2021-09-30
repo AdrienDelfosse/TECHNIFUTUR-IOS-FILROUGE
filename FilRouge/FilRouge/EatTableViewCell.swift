@@ -9,6 +9,8 @@ import UIKit
 import AlamofireImage
 import Alamofire
 
+
+
 class EatTableViewCell: UITableViewCell {
     @IBOutlet var foodImageView: UIImageView!
     
@@ -48,7 +50,7 @@ class EatTableViewCell: UITableViewCell {
         distanceLabel.textColor = .aquamarine
         nameLabel.text = business.name
         
-        foodImageView.af.setImage(withURL: URL(string: business.image_url)!)
+        foodImageView.af.setImage(withURL: URL(string: business.imageUrl!)!)
         
         
     }
